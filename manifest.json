@@ -1,0 +1,28 @@
+{
+    "id": "YOUR_ID_HERE",
+    "name": "JSON Plugin",
+    "version": "0.0.1",
+    "description": "JSON",
+    "summary": "Summary of your plugin",
+    "icons":[
+        {
+            "width": 96,
+            "height":96,
+            "path":"images/icon.png"
+        }
+    ],
+    "languages": ["en"],
+    "author": "Your Name",
+    "host": {
+      "app": "XD",
+      "minVersion": "13.0"
+    },
+    "uiEntryPoints": [
+      {
+        "type": "menu",
+        "label": "Json",
+        "commandId": "JSONSelected",
+        "shrotcut": {"win": "Ctrl+Atl+J", "mac": "Cmd+Atl+J"}
+      }
+    ]
+  }
